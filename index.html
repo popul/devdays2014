@@ -64,8 +64,9 @@
             </div>
             <div style="float:left;text-align: left;margin-top:50px;margin-left:50px">
                 <h1>Eagle</h1>
-                <h2 style="font-size:1.2em">Prenez vos bugs en photo !</h2>
+                <h2 style="font-size:1.2em">Prend vos bugs en photo !</h2>
             </div>
+            <img style="position:absolute; right:0;top:-200px;width:200px;" src="images/qrcode.png">
         </section>
 
         <section>
@@ -162,11 +163,16 @@
                         </g>
                     </svg>
                 </div>
-                <h1 style="margin-top:100px">Pourquoi Eagle ?</h1>
+                <h2 style="margin-top:100px">Comment Eagle révolutionne les tests ?</h2>
             </section>
             <section data-markdown>
                 <script type="text/template">
-                    ##Messagerie Pro: Briques Mail
+                    #Le contexte
+                </script>
+            </section>
+            <section data-markdown>
+                <script type="text/template">
+                    ##Messagerie Pro: Brique Mail
                     <img src="images/mail.png">
                 </script>
             </section>
@@ -203,6 +209,7 @@
                     - Téléphones et tablettes Android 4.1+ (Android et chrome)
                     - Windows Phone 8+ (IE 10 & 11)
                     - Navigateurs PC/Mac: IE 10+, Chrome, Firefox, Safari
+                    <div class="fragment" style="font-weight: bold;margin-top:50px;font-size:1.6em;">Plus d'une vingtaine de navigateurs différents</div>
                 </script>
             </section>
             <section data-markdown>
@@ -243,11 +250,11 @@
             </section>
             <section data-markdown>
                 <script type="text/template">
-                    ##Contexte / Difficultés rencontrées
-                    - Difficultés à piloter directement les tablettes et mobiles de manière fiable et automatisée
-                    - Difficultés à maitriser l’ensemble des composants de NDI (interface, PIM, ME, Wassup, SelfCare, etc …)
-                    - Difficultés à écrire des tests fiables et qui détectent de vrais erreurs
-                    - Difficultés à maintenir les tests
+                    ##Difficultés rencontrées
+                    - Piloter directement les tablettes et mobiles de manière fiable et automatisée
+                    - Maitriser l’ensemble des composants de NDI (interface, PIM, ME, Wassup, SelfCare, etc …)
+                    - Ecrire des tests fiables et qui détectent de vrais erreurs
+                    - Maintenir les tests
                 </script>
             </section>
             <section data-markdown>
@@ -272,10 +279,9 @@
                 <script type="text/template">
                     ##Principes de la Solution
                     - Pour la maintenabilité, écrire les tests avec des assertions visuelles
-                        - Comparaison de captures d’écrans partielles avec un référentiel, si différence, assertion fausse
-                        - Génération automatique des référentiels au 1er lancement
+                        - Comparaison de **captures d’écrans** partielles avec un référentiel, si différence, assertion fausse
+                        - **Génération automatique** des référentiels au 1er lancement
                         - Maintien des référentiels dans une gestion de configuration (SVN)
-                    - Développement d’un ensemble d’outils de tests : Eaglehttp://eagle-pmusso.beta.kermit.rd.francetelecom.fr/
                 </script>
             </section>
             <section>
@@ -318,6 +324,12 @@
                     - Maintien de la solution par la communauté sur le moyen terme
                     - Permet de donner une grande visibilité au produit
                     - Processus interne en cours
+            </script>
+        </section>
+
+        <section data-markdown>
+            <script type="text/template">
+                ## Merci à vous
             </script>
         </section>
     </div>
